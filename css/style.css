@@ -1,11 +1,25 @@
 body {
-    background: grey;
-    color: white;
+    background: #aeaeae;
+    color: #000000;
+    font-family:monospace;
 }
 
+div
+{
+    padding: 15px 20px;
+    margin-bottom: 15px;
+}
+
+p
+{
+    font-size: 18px;   
+}
 .main-content {
-    width: 1000px;
+    width: 50%;
     margin: 0 auto;
+    
+    border: solid 5px black;
+    padding-bottom: 10px;
 }
 
 .u {
@@ -13,11 +27,13 @@ body {
 }
 
 .mets {
-    background: orange;
+    background: #ffa500;
+    
 }
 
 .dodgers {
-    background: blue;
+    background: #0000ff;
+    color: white;
 }
 
 .cubs {
@@ -25,13 +41,42 @@ body {
 }
 
 .pittsburgh {
-    background: yellow;
+    background: #ffff00;
+    color:#082687;
 }
 
 .cardinals {
-    background: red;
+    background: #ff7c7c;
+}
+
+table, tr, th, td 
+{
+    border: 1px solid white;
+    padding: 5px;
+    border-collapse: collapse;
 }
 
 .table-container {
     background: black;
+    color: #afafaf;
+}
+
+a:visited
+{
+    color: white;
+}
+
+a:link
+{
+    color:white;
+}
+
+.pittsburgh a:link
+{
+    color: black;   
+}
+
+.pittsburgh a:visited
+{
+    color: white;
 }
